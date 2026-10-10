@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Sign-up Form</title>
+    <meta
+      name="description"
+      content="Sign up today to create your free account. Get instant access to our premium features, exclusive tools, and personalized dashboard."
+    />
+
+    <meta name="robots" content="index, follow" />
+
+    <!-- StyleSheet CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="sign-up">
+        <div class="content-row">
+          <div class="content-col brand-col">
+            <div class="inner-content">
+              <img
+                src="assets/odin-lined.png"
+                alt="The Odian Project Logo Lined"
+                class="logo"
+              />
+              <h1 class="main-heading">The Odian Project</h1>
+            </div>
+          </div>
+
+          <div class="content-col form-col">
+            <div class="intro">
+              <h2 class="heading">
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.
+              </h2>
+              <h2 class="heading secondary">You know you want to.</h2>
+            </div>
+            <form
+              action="https://www.example.com"
+              method="post"
+              class="sign-up-form"
+            >
+              <fieldset class="input-shadow-section">
+                <legend class="form-heading">Let's do this!</legend>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="firstname">FIRST NAME*</label>
+                    <input
+                      type="text"
+                      id="firstname"
+                      name="firstname"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="lastname">LAST NAME*</label>
+                    <input type="text" id="lastname" name="lastname" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">EMAIL*</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="phoneNumber">PHONE NUMBER (Optional)</label>
+                    <input type="text" id="phoneNumber" name="phoneNumber" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password">PASSWORD*</label>
+                    <input
+                      type="password"
+                      minlength="6"
+                      maxlength="20"
+                      ="password"
+                      name="password"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="rePassword">CONFIRM PASSWORD*</label>
+                    <input
+                      type="password"
+                      id="rePassword"
+                      name="rePassword"
+                      minlength="6"
+                      maxlength="12"
+                      required
+                    />
+                  </div>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn btn-submit">
+                Create Account
+              </button>
+              <p>Already have an account? <a href="#">Log in</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
