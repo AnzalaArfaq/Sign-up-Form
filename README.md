@@ -22,11 +22,11 @@ submitted anywhere — this is a layout and styling exercise only.
 
 ```
 .
-├── README.md
 └── signupForm/
     ├── index.html          # markup for the whole page
     ├── style.css           # all styling
     ├── sign-up-form.png    # screenshot of the finished page
+    ├── README.md
     └── assets/
         ├── background.jpg  # background image for the brand column
         ├── odin-lined.png  # Odin logo
